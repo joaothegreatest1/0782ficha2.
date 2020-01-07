@@ -40,7 +40,7 @@ else if (opcao == 3)
     printf("Insira a quantidade\n");
     scanf("%f",&quantidade);
 
-    CAD = quantidade / 1.45;
+    CAD = quantidade * 1.45;
 
     printf("%0.2f € = %0.2f $\n",quantidade,CAD);
 }
